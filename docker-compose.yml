@@ -1,7 +1,7 @@
 version: "2"
 services:
   app:
-    container_name: api_todos
+    container_name: api-todos
     restart: always
     build: .
     ports:
@@ -9,7 +9,7 @@ services:
     links:
       - mongo
   mongo:
-    container_name: mongo_todos
+    container_name: mongo-todos
     image: mongo
     volumes:
       - ./data:/data/db

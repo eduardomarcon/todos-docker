@@ -1,3 +1,3 @@
 module.exports = {
-  DB: "mongodb://mongo:27017/todos-docker"
+  DB: "mongodb://mongo-todos:27017/todos-docker"
 };
